@@ -4,14 +4,14 @@ layout: default
 
 <div class="home">
 
-  <h1 class="post-title">Articles</h1>
+  <h1 class="post-title">新闻评论</h1>
 
   <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <span class="post-meta"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
+          <!-- <span class="post-meta"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span> -->
         </h2>
          
       </li>
@@ -19,7 +19,7 @@ layout: default
     {% endfor %}
   </ul>
   
-  <h1 class="post-title">Articles2</h1>
+<!--   <h1 class="post-title">Articles2</h1>
 
   <ul class="post-list">
     {% for post in paginator.posts %}
@@ -32,6 +32,6 @@ layout: default
       </li>
 
     {% endfor %}
-  </ul>
+  </ul> -->
 
 {% include pagination.html %}
