@@ -4,7 +4,7 @@
 title: "I'm Giu"
 title-font-size: '4em' # a provision to adjust the size of your title. If it is too long then do resize to a smaller value. By default it will be 4em.
 
-email:88504277@qq.com
+email: 88504277@qq.com
 description: > # this means to ignore newlines until "baseurl:"
   Giu is a great writers. 
 baseurl: "/demo" # the subpath of your site, e.g. /blog
