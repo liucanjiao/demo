@@ -15,19 +15,19 @@ permalink: :title/
 # Build settings
 markdown: kramdown
 highlight: rouge
-paginate: 10
+paginate: 4
 paginate_path: /page:num/
 
 
 # Tracker
-analytics: UA-83979019-1
+# analytics: UA-83979019-1
 
 # Comments
 disqus-shortname:
 
 # Contact form
 # Go to https://getsimpleform.com and get a API token by signing up with your email and enter that here
-api-token: fae177bf525e4705477672a980197a31  
+# api-token: fae177bf525e4705477672a980197a31  
 
 #CSS
 sass:
