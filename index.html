@@ -26,7 +26,7 @@ layout: default
 <!-- </span>{{ category | last | size }}</span> -->
 <ul class="post-list">
     {% for post in category.last %}
-        <li class="post-meta"><small>{ post.date | date:"%d/%m/%Y"}}<a href="{{ post.url | prepend: site.baseurl }}"  class="post-link">{{ post.title }}</small></a></li>
+        <li ><small class="post-meta">{{post.date | date:"%d/%m/%Y"}}</small><a href="{{ post.url | prepend: site.baseurl }}"  class="post-link">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
 {% endfor %}
