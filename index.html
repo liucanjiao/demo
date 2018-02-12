@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
 
-  <h1 class="post-title">文章</h1>
+<!--   <h1 class="post-title">文章</h1>
 
 
 
@@ -18,11 +18,12 @@ layout: default
          
       </li>
     {% endfor %}
-  </ul>
+  </ul> -->
   
-  <h1 class="post-title">分类测试</h1>
+  <!-- <h1 class="post-title">分类测试</h1> -->
 {% for category in site.categories %}
-<h2>{{ category | first }}</h2>
+<h1 class="post-title">{{ category | first }}</h1>
+<!-- <h2>{{ category | first }}</h2> -->
 <!-- </span>{{ category | last | size }}</span> -->
 <ul class="post-list">
     {% for post in category.last %}
